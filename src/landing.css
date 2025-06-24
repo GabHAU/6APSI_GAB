@@ -1,0 +1,45 @@
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #00b4db, #0083b0);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.landing-content {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+.landing-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.landing-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 400px;
+    margin-inline: auto;
+}
+
+.landing-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.landing-button:hover {
+    background-color: #0056b3;
+}
